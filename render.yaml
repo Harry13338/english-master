@@ -9,6 +9,6 @@ services:
       - key: NODE_ENV
         value: production
       - key: ADMIN_EMAIL
-        value: your-email@gmail.com
+        value: aingdy924@gmail.com
       - key: ADMIN_PIN
         value: "246810"

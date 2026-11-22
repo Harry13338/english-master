@@ -3,7 +3,7 @@ import { AUTHORIZED_ADMIN_EMAIL, SECRET_ADMIN_ROUTE } from '../seedData';
 
 /**
  * Strict Single-Admin Check:
- * Grants admin privileges ONLY when user.email === 'your-email@gmail.com' AND user.role === 'admin'.
+ * Grants admin privileges ONLY when user.email === 'aingdy924@gmail.com' AND user.role === 'admin'.
  */
 export function isStrictAuthorizedAdmin(user: User | null | undefined): boolean {
   if (!user) return false;

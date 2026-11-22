@@ -69,7 +69,7 @@ export const SEED_USERS: User[] = [
   {
     id: 'usr-admin-1',
     name: 'Master Admin',
-    email: 'your-email@gmail.com',
+    email: 'aingdy924@gmail.com',
     role: 'admin',
     current_level: 'C1',
     xp_points: 1850,
@@ -80,7 +80,7 @@ export const SEED_USERS: User[] = [
 ];
 
 export const SECRET_ADMIN_ROUTE = '/studio-manage-9x2k';
-export const AUTHORIZED_ADMIN_EMAIL = 'your-email@gmail.com';
+export const AUTHORIZED_ADMIN_EMAIL = 'aingdy924@gmail.com';
 
 export const SEED_LESSONS: Lesson[] = [
   // A1 Sample Lesson 1

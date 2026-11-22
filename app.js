@@ -61,7 +61,7 @@ const SEED_USERS = [
   {
     id: 'usr-admin-1',
     name: 'Master Admin',
-    email: 'your-email@gmail.com',
+    email: 'aingdy924@gmail.com',
     role: 'admin',
     current_level: 'C1',
     xp_points: 1850,
@@ -77,7 +77,7 @@ const SEED_USERS = [
 const SECRET_ADMIN_ROUTE = '/studio-manage-9x2k';
 const AUTHORIZED_ADMIN_EMAIL = (
   (typeof window !== 'undefined' && window.ENV && window.ENV.ADMIN_EMAIL) ||
-  'your-email@gmail.com'
+  'aingdy924@gmail.com'
 )
   .trim()
   .toLowerCase();
@@ -1983,7 +1983,7 @@ window.autoUnlockAdminPin = function () {
 };
 
 window.openQuickAdminStudio = function (targetLessonId = null, targetSubTab = 'lessons') {
-  // Strictly allow ONLY the authorized Admin account (your-email@gmail.com + role === 'admin')
+  // Strictly allow ONLY the authorized Admin account (aingdy924@gmail.com + role === 'admin')
   if (!isStrictAuthorizedAdmin(state.user)) {
     silentRedirectToRoot();
     render();
@@ -4666,7 +4666,7 @@ function renderProfileView() {
 // ============================================================================
 // PROTECTED ADMIN DASHBOARD VIEW (/studio-manage-9x2k)
 // 1. Accessible ONLY via secret route /studio-manage-9x2k (no links anywhere in UI)
-// 2. Requires user.email === 'your-email@gmail.com' AND user.role === 'admin'
+// 2. Requires user.email === 'aingdy924@gmail.com' AND user.role === 'admin'
 // 3. Unauthorized visitors are immediately & silently redirected to /
 // 4. Requires 6-digit ADMIN_PIN once per session before unlocking
 // ============================================================================
@@ -4680,7 +4680,7 @@ function renderAdminDashboardView() {
     return renderHomeView();
   }
 
-  // Session 6-digit ADMIN_PIN Gate (even after logging in with your-email@gmail.com)
+  // Session 6-digit ADMIN_PIN Gate (even after logging in with aingdy924@gmail.com)
   if (!isAdminPinUnlockedForSession()) {
     return `
       <div class="max-w-md mx-auto my-12 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-7 sm:p-8 shadow-xl space-y-5">
@@ -6269,7 +6269,7 @@ function render() {
   if (!root) return;
 
   // Enforce secret route guard BEFORE rendering: if someone visits /studio-manage-9x2k
-  // while not logged in as the single authorized admin (your-email@gmail.com + role === 'admin'),
+  // while not logged in as the single authorized admin (aingdy924@gmail.com + role === 'admin'),
   // immediately redirect them to / without showing any admin UI or error details.
   if (state.activeTab === 'admin' && !isStrictAuthorizedAdmin(state.user)) {
     silentRedirectToRoot();

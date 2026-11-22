@@ -12,7 +12,7 @@ const DATA_DIR = path.join(ROOT, 'data');
 const DB_FILE = path.join(DATA_DIR, 'database.json');
 
 // Strict Single-Admin Backend Configuration
-const AUTHORIZED_ADMIN_EMAIL = (process.env.ADMIN_EMAIL || 'your-email@gmail.com')
+const AUTHORIZED_ADMIN_EMAIL = (process.env.ADMIN_EMAIL || 'aingdy924@gmail.com')
   .trim()
   .toLowerCase();
 const REQUIRED_ADMIN_PIN = (process.env.ADMIN_PIN || '246810').trim();
@@ -220,7 +220,7 @@ const server = http.createServer(async (req, res) => {
         if (!verifyStrictAdminHeaders(req)) {
           return sendJson(res, 403, {
             error:
-              '403 Forbidden: Only the authorized single admin (your-email@gmail.com) with valid ADMIN_PIN can modify course content.',
+              '403 Forbidden: Only the authorized single admin (aingdy924@gmail.com) with valid ADMIN_PIN can modify course content.',
           });
         }
 
