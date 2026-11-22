@@ -752,9 +752,15 @@ const SEED_FLASHCARD_REVIEWS = [
 // ============================================================================
 // STATE MANAGEMENT
 // ============================================================================
+// Clear any legacy persistent auto-login keys so opening the site starts on Sign In / Sign Up
+try {
+  localStorage.removeItem('em_user');
+  localStorage.removeItem('em_auth_user');
+} catch {}
+
 const state = {
   isDark: localStorage.getItem('em_theme') ? localStorage.getItem('em_theme') === 'dark' : true,
-  user: JSON.parse(localStorage.getItem('em_auth_user') || 'null'),
+  user: JSON.parse(sessionStorage.getItem('em_session_user') || 'null'),
   lessons: JSON.parse(localStorage.getItem('em_lessons') || 'null') || SEED_LESSONS,
   vocabularies: JSON.parse(localStorage.getItem('em_vocabularies') || 'null') || SEED_VOCABULARY,
   lessonVideos: JSON.parse(localStorage.getItem('em_lesson_videos') || 'null') || SEED_LESSON_VIDEOS,
@@ -922,8 +928,9 @@ async function bootstrapFromFullStackServer() {
 function saveState() {
   localStorage.setItem('em_theme', state.isDark ? 'dark' : 'light');
   if (state.user) {
-    localStorage.setItem('em_auth_user', JSON.stringify(state.user));
+    sessionStorage.setItem('em_session_user', JSON.stringify(state.user));
   } else {
+    sessionStorage.removeItem('em_session_user');
     localStorage.removeItem('em_auth_user');
     localStorage.removeItem('em_user');
   }

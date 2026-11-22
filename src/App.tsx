@@ -64,21 +64,21 @@ export function App() {
 
   // Authenticated User State (starts at null so visitors begin on Sign In / Sign Up screen)
   const [user, setUser] = useState<User | null>(() => {
-    const saved = localStorage.getItem('em_auth_user');
-    if (saved) {
-      try {
-        return JSON.parse(saved);
-      } catch {
-        return null;
-      }
+    try {
+      localStorage.removeItem('em_user');
+      localStorage.removeItem('em_auth_user');
+      const saved = sessionStorage.getItem('em_session_user');
+      return saved ? JSON.parse(saved) : null;
+    } catch {
+      return null;
     }
-    return null;
   });
 
   useEffect(() => {
     if (user) {
-      localStorage.setItem('em_auth_user', JSON.stringify(user));
+      sessionStorage.setItem('em_session_user', JSON.stringify(user));
     } else {
+      sessionStorage.removeItem('em_session_user');
       localStorage.removeItem('em_auth_user');
       localStorage.removeItem('em_user');
     }
