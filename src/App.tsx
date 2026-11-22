@@ -62,23 +62,24 @@ export function App() {
     }
   }, [isDark]);
 
-  // Authenticated User State
+  // Authenticated User State (starts at null so visitors begin on Sign In / Sign Up screen)
   const [user, setUser] = useState<User | null>(() => {
-    const saved = localStorage.getItem('em_user');
+    const saved = localStorage.getItem('em_auth_user');
     if (saved) {
       try {
         return JSON.parse(saved);
       } catch {
-        return SEED_USERS[0];
+        return null;
       }
     }
-    return SEED_USERS[0];
+    return null;
   });
 
   useEffect(() => {
     if (user) {
-      localStorage.setItem('em_user', JSON.stringify(user));
+      localStorage.setItem('em_auth_user', JSON.stringify(user));
     } else {
+      localStorage.removeItem('em_auth_user');
       localStorage.removeItem('em_user');
     }
   }, [user]);

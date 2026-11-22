@@ -12,8 +12,8 @@ interface AuthScreenProps {
 export const AuthScreen: React.FC<AuthScreenProps> = ({ onLogin, isDark, onToggleTheme }) => {
   const [mode, setMode] = useState<'login' | 'register'>('login');
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('aungkyaw@englishmaster.mm');
-  const [password, setPassword] = useState('••••••••');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [level, setLevel] = useState<CEFRLevel>('A1');
   const [error, setError] = useState('');
 

@@ -754,7 +754,7 @@ const SEED_FLASHCARD_REVIEWS = [
 // ============================================================================
 const state = {
   isDark: localStorage.getItem('em_theme') ? localStorage.getItem('em_theme') === 'dark' : true,
-  user: JSON.parse(localStorage.getItem('em_user') || 'null') || SEED_USERS[0],
+  user: JSON.parse(localStorage.getItem('em_auth_user') || 'null'),
   lessons: JSON.parse(localStorage.getItem('em_lessons') || 'null') || SEED_LESSONS,
   vocabularies: JSON.parse(localStorage.getItem('em_vocabularies') || 'null') || SEED_VOCABULARY,
   lessonVideos: JSON.parse(localStorage.getItem('em_lesson_videos') || 'null') || SEED_LESSON_VIDEOS,
@@ -922,8 +922,9 @@ async function bootstrapFromFullStackServer() {
 function saveState() {
   localStorage.setItem('em_theme', state.isDark ? 'dark' : 'light');
   if (state.user) {
-    localStorage.setItem('em_user', JSON.stringify(state.user));
+    localStorage.setItem('em_auth_user', JSON.stringify(state.user));
   } else {
+    localStorage.removeItem('em_auth_user');
     localStorage.removeItem('em_user');
   }
   localStorage.setItem('em_lessons', JSON.stringify(state.lessons));
@@ -2837,12 +2838,12 @@ function renderAuthScreen() {
 
             <div>
               <label class="block text-xs font-semibold mb-1.5">Email Address • <span class="font-mm">အီးမေးလ်</span></label>
-              <input name="email" type="email" value="${state.authMode === 'login' ? 'aungkyaw@englishmaster.mm' : ''}" placeholder="you@example.com" required class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60" />
+              <input name="email" type="email" value="" placeholder="you@example.com" required class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60" />
             </div>
 
             <div>
               <label class="block text-xs font-semibold mb-1.5">Password • <span class="font-mm">စကားဝှက်</span></label>
-              <input name="password" type="password" value="${state.authMode === 'login' ? 'password123' : ''}" placeholder="••••••••" required class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60" />
+              <input name="password" type="password" value="" placeholder="••••••••" required class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60" />
             </div>
 
             ${state.authMode === 'register' ? `
@@ -2856,7 +2857,7 @@ function renderAuthScreen() {
             ` : ''}
 
             <button type="submit" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-sm shadow-lg shadow-indigo-500/25">
-              ${state.authMode === 'login' ? 'Sign In with Email →' : 'Create Student Account (0 XP / 0 Streak) →'}
+              ${state.authMode === 'login' ? 'Sign In with Email →' : 'Create Student Account →'}
             </button>
           </form>
 
@@ -2870,14 +2871,6 @@ function renderAuthScreen() {
             <span class="font-extrabold text-blue-500">G</span>
             <span>Continue with Google</span>
           </button>
-
-          <div class="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800">
-            <p class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-2 text-center">Quick Student Demo</p>
-            <button onclick="loginDemo(0)" class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-800/40 text-left flex items-center justify-between">
-              <div class="text-xs font-bold">Aung Kyaw (aungkyaw@englishmaster.mm)</div>
-              <div class="text-[11px] text-emerald-500 font-semibold">Student • Level A1</div>
-            </button>
-          </div>
         </div>
       </div>
       <p class="text-center text-xs text-slate-400 font-mm">English Master • Bilingual English-Myanmar Learning App</p>
