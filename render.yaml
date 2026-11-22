@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: english-master
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_EMAIL
+        value: your-email@gmail.com
+      - key: ADMIN_PIN
+        value: "246810"

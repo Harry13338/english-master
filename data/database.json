@@ -1,0 +1,598 @@
+{
+  "users": [
+    {
+      "id": "usr-student-1",
+      "name": "Aung Kyaw (အောင်ကျော်)",
+      "email": "aungkyaw@englishmaster.mm",
+      "role": "student",
+      "current_level": "A1",
+      "xp_points": 120,
+      "streak_count": 4,
+      "last_active_date": "2026-11-22",
+      "auth_provider": "email"
+    },
+    {
+      "id": "usr-admin-1",
+      "name": "Master Admin",
+      "email": "your-email@gmail.com",
+      "role": "admin",
+      "current_level": "C1",
+      "xp_points": 1850,
+      "streak_count": 21,
+      "last_active_date": "2026-11-22",
+      "auth_provider": "google"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-a1-1",
+      "cefr_level": "A1",
+      "unit_number": 1,
+      "title": "Greetings & Self-Introductions",
+      "title_mm": "နှုတ်ဆက်ခြင်းနှင့် မိမိကိုယ်ကို မိတ်ဆက်ခြင်း",
+      "order_index": 1,
+      "grammar_note_mm": "【 Verb to Be (am / is / are) အသုံးပြုပုံ 】\n\nအင်္ဂလိပ်စာတွင် မိမိကိုယ်ကို မိတ်ဆက်ရာ၌ဖြစ်စေ၊ လူတစ်ဦး သို့မဟုတ် အရာဝတ္ထုတစ်ခု၏ အခြေအနေကို ဖော်ပြရာ၌ဖြစ်စေ \"Verb to Be\" (am, is, are) ကို အဓိက အသုံးပြုပါသည်။ မြန်မာလို \"ဖြစ်သည် / ရှိသည်\" ဟု အဓိပ္ပာယ်ရပါသည်။\n\n၁။ I + am (ကျွန်တော်/ကျွန်မ ... ဖြစ်ပါသည်)\n• I am Aung Kyaw. (ကျွန်တော် အောင်ကျော် ဖြစ်ပါတယ်။)\n• I'm from Myanmar. (ကျွန်တော် မြန်မာနိုင်ငံက ဖြစ်ပါတယ်။)\n\n၂။ He / She / It / တစ်ဦးတည်း + is\n• She is a teacher. (သူမသည် ဆရာမတစ်ဦး ဖြစ်ပါသည်။)\n• It is a nice day. (သာယာသော နေ့တစ်နေ့ ဖြစ်ပါသည်။)\n\n၃။ You / We / They / အများကိန်း + are\n• You are very kind. (သင်သည် အလွန်ကြင်နာတတ်သူ ဖြစ်ပါသည်။)\n• They are my friends. (သူတို့သည် ကျွန်တော့်သူငယ်ချင်းများ ဖြစ်ကြပါသည်။)\n\n💡 အတိုကောက်ပုံစံများ (Contractions):\nI am → I'm | He is → He's | She is → She's | You are → You're | We are → We're"
+    },
+    {
+      "id": "les-a1-2",
+      "cefr_level": "A1",
+      "unit_number": 2,
+      "title": "Daily Routines & Present Simple",
+      "title_mm": "နေ့စဉ်လုပ်ငန်းဆောင်တာများနှင့် ပစ္စုပ္ပန်ကာလ",
+      "order_index": 2,
+      "grammar_note_mm": "【 Present Simple Tense (နေ့စဉ်ပုံမှန် လုပ်ဆောင်ချက်များ) 】\n\nနေ့စဉ်ပုံမှန် လုပ်လေ့လုပ်ထရှိသော အလေ့အထများ (Habits & Daily Routines) နှင့် အမြဲမှန်ကန်သော အချက်အလက်များကို ပြောဆိုရာတွင် Present Simple Tense (Verb နဂိုမူရင်းပုံစံ - V1) ကို အသုံးပြုပါသည်။\n\n၁။ I / You / We / They + Verb (မူရင်းပုံစံ V1)\n• I wake up at 6 AM every day. (ကျွန်တော် နေ့တိုင်း မနက် ၆ နာရီမှာ အိပ်ရာထပါတယ်။)\n• We drink coffee in the morning. (ကျွန်တော်တို့ မနက်ခင်းမှာ ကော်ဖီသောက်ကြတယ်။)\n\n၂။ He / She / It (တစ်ဦးတည်း Subject) + Verb (-s / -es ပေါင်းထည့်ရန်)\n• She works at an office. (သူမ ရုံးတစ်ခုမှာ အလုပ်လုပ်ပါတယ်။)\n• He goes to school by bus. (သူ ဘတ်စ်ကားဖြင့် ကျောင်းသွားပါတယ်။)\n\n၃။ အငြင်းဝါကျနှင့် မေးခွန်းဝါကျ (Do / Does):\n• I do not (don't) eat spicy food. (ကျွန်တော် အစပ်မစားပါ။)\n• Does she speak English? (သူမ အင်္ဂလိပ်စကား ပြောတတ်သလား။)"
+    },
+    {
+      "id": "les-a2-1",
+      "cefr_level": "A2",
+      "unit_number": 1,
+      "title": "Travel, Airport & Directions",
+      "title_mm": "ခရီးသွားလာခြင်း၊ လေဆိပ်နှင့် လမ်းညွှန်မေးမြန်းခြင်း",
+      "order_index": 1,
+      "grammar_note_mm": "【 ယဉ်ကျေးစွာ မေးမြန်းခြင်း (Could you... / Would you mind...) 】\n\nခရီးသွားရာတွင် လမ်းမေးခြင်း သို့မဟုတ် အကူအညီတောင်းခံရာတွင် ရိုးရိုးမေးခွန်းထက် \"Could you please...?\" သို့မဟုတ် \"Excuse me, how do I get to...?\" ကို သုံးခြင်းဖြင့် ပိုမိုယဉ်ကျေးသိမ်မွေ့စေပါသည်။\n\n• Excuse me, where is the boarding gate? (တစ်ဆိတ်လောက်ခင်ဗျာ၊ လေယာဉ်ပေါ်တက်ရမည့်ဂိတ် ဘယ်မှာလဲ။)\n• Could you show me on the map? (မြေပုံပေါ်မှာ ပြပေးနိုင်မလားခင်ဗျာ။)"
+    },
+    {
+      "id": "les-b1-1",
+      "cefr_level": "B1",
+      "unit_number": 1,
+      "title": "Work Experiences & Present Perfect",
+      "title_mm": "လုပ်ငန်းအတွေ့အကြုံများနှင့် Present Perfect သဒ္ဒါ",
+      "order_index": 1,
+      "grammar_note_mm": "【 Present Perfect Tense (have / has + V3) 】\n\nအတိတ်က စတင်ခဲ့ပြီး ယခုအချိန်ထိ ဆက်လက်ဖြစ်ပေါ်နေသော ကိစ္စရပ်များ သို့မဟုတ် ဘဝအတွေ့အကြုံများကို ဖော်ပြရာတွင် \"have / has + Past Participle (V3)\" ကို သုံးပါသည်။\n\n• I have worked here for three years. (ကျွန်တော် ဒီမှာ အလုပ်လုပ်ခဲ့တာ ၃ နှစ်ရှိပါပြီ။)\n• She has already finished the report. (သူမ အစီရင်ခံစာကို အပြီးသတ်ပြီးပါပြီ။)"
+    },
+    {
+      "id": "les-b2-1",
+      "cefr_level": "B2",
+      "unit_number": 1,
+      "title": "Business Negotiations & Conditionals",
+      "title_mm": "စီးပွားရေးညှိနှိုင်းဆွေးနွေးခြင်းနှင့် အခြေအနေပြဝါကျများ",
+      "order_index": 1,
+      "grammar_note_mm": "【 First & Second Conditionals (If ဝါကျများ) 】\n\nစီးပွားရေးဆွေးနွေးပွဲများတွင် အပေးအယူညှိနှိုင်းရာ၌ Conditional ဝါကျများကို အသုံးပြုပါသည်။\n\n• First Conditional (ဖြစ်နိုင်ခြေများသောအရာ): If + Present Simple, will + Verb\n  \"If we sign the contract today, we will offer a 10% discount.\"\n• Second Conditional (စိတ်ကူး/ယဉ်ကျေးသော အဆိုပြုချက်): If + Past Simple, would + Verb\n  \"If you extended the deadline, we would deliver higher quality results.\""
+    },
+    {
+      "id": "les-c1-1",
+      "cefr_level": "C1",
+      "unit_number": 1,
+      "title": "Academic Discourse & Inversion",
+      "title_mm": "ပညာရပ်ဆိုင်ရာ အရေးအသားနှင့် Inversion သဒ္ဒါ",
+      "order_index": 1,
+      "grammar_note_mm": "【 Negative Inversion for Emphasis (အလေးအနက်ထား ဖော်ပြခြင်း) 】\n\nC1 အဆင့် အဆင့်မြင့် အင်္ဂလိပ်စာတွင် ဝါကျတစ်ကြောင်းကို ပိုမိုအားကောင်းစေရန် Negative Adverb (Never, Rarely, Seldom, Not only) တို့ကို ဝါကျရှေ့ဆုံးသို့ ပို့ပြီး မေးခွန်းပုံစံ (Auxiliary + Subject + Verb) ဖြင့် ရေးသားပြောဆိုလေ့ရှိပါသည်။\n\n• Not only did the research confirm our hypothesis, but it also revealed new insights.\n• Seldom have we witnessed such rapid technological transformation."
+    }
+  ],
+  "lessonVideos": [
+    {
+      "id": "vid-a1-1-1",
+      "lesson_id": "les-a1-1",
+      "title": "Part 1: Natural Greetings & Introducing Yourself (MP4 / Cloudflare R2)",
+      "video_provider": "mp4_url",
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "duration_sec": 15,
+      "order_index": 1,
+      "subtitle_en_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:03.500\nHello everyone! Welcome to English Master A1 Unit 1.\n\n00:00:03.500 --> 00:00:07.000\nToday we will learn how to give a warm greeting in English.\n\n00:00:07.000 --> 00:00:11.000\n\"Allow me to introduce myself. My hometown is Mandalay.\"\n\n00:00:11.000 --> 00:00:15.000\n\"It is a pleasure to meet our new neighbor today!\"",
+      "subtitle_mm_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:03.500\nမင်္ဂလာပါ အားလုံးပဲ! English Master A1 ယူနစ် (၁) မှ ကြိုဆိုပါတယ်။\n\n00:00:03.500 --> 00:00:07.000\nဒီနေ့မှာတော့ အင်္ဂလိပ်လို နွေးထွေးစွာ နှုတ်ဆက်ပုံကို လေ့လာကြပါမယ်။\n\n00:00:07.000 --> 00:00:11.000\n\"ကျွန်တော့်ကိုယ်ကျွန်တော် မိတ်ဆက်ခွင့်ပြုပါ။ ကျွန်တော့်ဇာတိမြို့က မန္တလေးပါ။\"\n\n00:00:11.000 --> 00:00:15.000\n\"ဒီနေ့ အိမ်နီးနားချင်းအသစ်နဲ့ တွေ့ဆုံရတာ ဝမ်းမြောက်ဂုဏ်ယူမိပါတယ်!\""
+    },
+    {
+      "id": "vid-a1-1-2",
+      "lesson_id": "les-a1-1",
+      "title": "Part 2: Verb to Be (am / is / are) Conversation Practice (YouTube Unlisted)",
+      "video_provider": "youtube_unlisted",
+      "video_url": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "duration_sec": 20,
+      "order_index": 2,
+      "subtitle_en_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:05.000\nUsing \"I am\", \"She is\", and \"They are\" in real conversations.\n\n00:00:05.000 --> 00:00:10.000\nNotice how native speakers use contractions like \"I'm\" and \"You're\".\n\n00:00:10.000 --> 00:00:15.000\n\"She gave us a warm greeting at the door.\"\n\n00:00:15.000 --> 00:00:20.000\nPractice repeating each sentence aloud for clear pronunciation.",
+      "subtitle_mm_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:05.000\n\"I am\", \"She is\" နှင့် \"They are\" တို့ကို လက်တွေ့စကားပြောတွင် အသုံးပြုပုံ။\n\n00:00:05.000 --> 00:00:10.000\n\"I'm\" နှင့် \"You're\" ကဲ့သို့ အတိုကောက်အသံထွက်များကို သတိပြုနားထောင်ပါ။\n\n00:00:10.000 --> 00:00:15.000\n\"သူမက တံခါးဝမှာ ကျွန်တော်တို့ကို နွေးထွေးစွာ နှုတ်ဆက်ခဲ့ပါတယ်။\"\n\n00:00:15.000 --> 00:00:20.000\nအသံထွက်ပီသစေရန် ဝါကျတစ်ကြောင်းချင်းစီကို အသံထွက်၍ လိုက်ဆိုလေ့ကျင့်ပါ။"
+    },
+    {
+      "id": "vid-a1-2-1",
+      "lesson_id": "les-a1-2",
+      "title": "Talking About Your Daily Routine & Schedule (MP4 / R2)",
+      "video_provider": "mp4_url",
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "duration_sec": 15,
+      "order_index": 1,
+      "subtitle_en_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:04.000\nLet's talk about our daily routine using Present Simple Tense.\n\n00:00:04.000 --> 00:00:08.000\n\"We usually eat mohinga for breakfast on Sundays.\"\n\n00:00:08.000 --> 00:00:12.000\n\"He commutes to his office by train every morning.\"\n\n00:00:12.000 --> 00:00:15.000\n\"I like to relax and read a book before bed.\"",
+      "subtitle_mm_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:04.000\nPresent Simple Tense ကိုသုံးပြီး နေ့စဉ်လုပ်ငန်းဆောင်တာများအကြောင်း ပြောကြရအောင်။\n\n00:00:04.000 --> 00:00:08.000\n\"ကျွန်တော်တို့ တနင်္ဂနွေနေ့တိုင်း မနက်စာအဖြစ် မုန့်ဟင်းခါး စားလေ့ရှိပါတယ်။\"\n\n00:00:08.000 --> 00:00:12.000\n\"သူ မနက်တိုင်း ရထားဖြင့် ရုံးသို့ သွားလာပါတယ်။\"\n\n00:00:12.000 --> 00:00:15.000\n\"အိပ်ရာမဝင်ခင် စာအုပ်ဖတ်ပြီး အနားယူအပန်းဖြေရတာကို ကျွန်တော် နှစ်သက်ပါတယ်။\""
+    },
+    {
+      "id": "vid-a2-1-1",
+      "lesson_id": "les-a2-1",
+      "title": "Airport Check-In & Asking for Directions Politely",
+      "video_provider": "mp4_url",
+      "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "duration_sec": 15,
+      "order_index": 1,
+      "subtitle_en_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:05.000\n\"Excuse me, could you tell me where the departure gate is?\"\n\n00:00:05.000 --> 00:00:10.000\n\"Please check the departure time on your boarding pass.\"\n\n00:00:10.000 --> 00:00:15.000\n\"Bagan is a popular tourist destination in Myanmar.\"",
+      "subtitle_mm_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:05.000\n\"တစ်ဆိတ်လောက်ခင်ဗျာ၊ ထွက်ခွာမည့်ဂိတ် ဘယ်မှာလဲဆိုတာ ပြောပြပေးနိုင်မလား။\"\n\n00:00:05.000 --> 00:00:10.000\n\"သင်၏ လေယာဉ်လက်မှတ်ပေါ်တွင် ထွက်ခွာမည့်အချိန်ကို စစ်ဆေးပေးပါ။\"\n\n00:00:10.000 --> 00:00:15.000\n\"ပုဂံသည် မြန်မာနိုင်ငံတွင် လူကြိုက်များသော ခရီးသွားနေရာတစ်ခု ဖြစ်ပါသည်။\""
+    }
+  ],
+  "vocabularies": [
+    {
+      "id": "voc-a1-1-1",
+      "lesson_id": "les-a1-1",
+      "word_en": "Greeting",
+      "meaning_mm": "နှုတ်ဆက်စကား / နှုတ်ခွန်းဆက်သခြင်း",
+      "phonetic": "/ˈɡriː.tɪŋ/",
+      "example_en": "She gave us a warm greeting at the door.",
+      "example_mm": "သူမက တံခါးဝမှာ ကျွန်တော်တို့ကို နွေးထွေးစွာ နှုတ်ဆက်ခဲ့ပါတယ်။"
+    },
+    {
+      "id": "voc-a1-1-2",
+      "lesson_id": "les-a1-1",
+      "word_en": "Introduce",
+      "meaning_mm": "မိတ်ဆက်ပေးသည်",
+      "phonetic": "/ˌɪn.trəˈdjuːs/",
+      "example_en": "Allow me to introduce myself to the class.",
+      "example_mm": "အတန်းကို ကျွန်တော့်ကိုယ်ကျွန်တော် မိတ်ဆက်ခွင့်ပြုပါ။"
+    },
+    {
+      "id": "voc-a1-1-3",
+      "lesson_id": "les-a1-1",
+      "word_en": "Pleasure",
+      "meaning_mm": "ဝမ်းမြောက်ပျော်ရွှင်မှု / ဂုဏ်ယူဝမ်းသာခြင်း",
+      "phonetic": "/ˈpleʒ.ər/",
+      "example_en": "It is a pleasure to meet you today.",
+      "example_mm": "ဒီနေ့ သင်နှင့်တွေ့ဆုံရတာ ဝမ်းသာဂုဏ်ယူမိပါတယ်။"
+    },
+    {
+      "id": "voc-a1-1-4",
+      "lesson_id": "les-a1-1",
+      "word_en": "Hometown",
+      "meaning_mm": "မွေးရပ်မြေ / ဇာတိမြို့",
+      "phonetic": "/ˈhoʊm.taʊn/",
+      "example_en": "My hometown is Mandalay in central Myanmar.",
+      "example_mm": "ကျွန်တော့်ရဲ့ မွေးရပ်ဇာတိမြို့ကတော့ မြန်မာပြည်အလယ်ပိုင်းက မန္တလေးမြို့ ဖြစ်ပါတယ်။"
+    },
+    {
+      "id": "voc-a1-1-5",
+      "lesson_id": "les-a1-1",
+      "word_en": "Neighbor",
+      "meaning_mm": "အိမ်နီးနားချင်း",
+      "phonetic": "/ˈneɪ.bər/",
+      "example_en": "Our new neighbor is very friendly and helpful.",
+      "example_mm": "ကျွန်တော်တို့ရဲ့ အိမ်နီးနားချင်းအသစ်က အရမ်းဖော်ရွေပြီး ကူညီတတ်ပါတယ်။"
+    },
+    {
+      "id": "voc-a1-2-1",
+      "lesson_id": "les-a1-2",
+      "word_en": "Schedule",
+      "meaning_mm": "အချိန်ဇယား / အစီအစဉ်",
+      "phonetic": "/ˈskedʒ.uːl/",
+      "example_en": "I have a busy study schedule every weekday.",
+      "example_mm": "ကြားရက်တိုင်းမှာ ကျွန်တော့်မှာ မအားလပ်တဲ့ စာကြည့်အချိန်ဇယားတစ်ခု ရှိပါတယ်။"
+    },
+    {
+      "id": "voc-a1-2-2",
+      "lesson_id": "les-a1-2",
+      "word_en": "Breakfast",
+      "meaning_mm": "မနက်စာ",
+      "phonetic": "/ˈbrek.fəst/",
+      "example_en": "We usually eat mohinga for breakfast on Sundays.",
+      "example_mm": "ကျွန်တော်တို့ တနင်္ဂနွေနေ့တိုင်း မနက်စာအဖြစ် မုန့်ဟင်းခါး စားလေ့ရှိပါတယ်။"
+    },
+    {
+      "id": "voc-a1-2-3",
+      "lesson_id": "les-a1-2",
+      "word_en": "Commute",
+      "meaning_mm": "အိမ်မှ အလုပ်/ကျောင်းသို့ နေ့စဉ်သွားလာသည်",
+      "phonetic": "/kəˈmjuːt/",
+      "example_en": "He commutes to his office by train every morning.",
+      "example_mm": "သူ မနက်တိုင်း ရထားဖြင့် ရုံးသို့ သွားလာပါတယ်။"
+    },
+    {
+      "id": "voc-a1-2-4",
+      "lesson_id": "les-a1-2",
+      "word_en": "Exercise",
+      "meaning_mm": "ကိုယ်လက်လှုပ်ရှား အားကစားလုပ်သည်",
+      "phonetic": "/ˈek.sɚ.saɪz/",
+      "example_en": "She exercises for thirty minutes in the park.",
+      "example_mm": "သူမ ပန်းခြံထဲမှာ မိနစ်သုံးဆယ်ကြာ ကိုယ်လက်လှုပ်ရှား လေ့ကျင့်ခန်းလုပ်ပါတယ်။"
+    },
+    {
+      "id": "voc-a1-2-5",
+      "lesson_id": "les-a1-2",
+      "word_en": "Relax",
+      "meaning_mm": "အနားယူအပန်းဖြေသည်",
+      "phonetic": "/rɪˈlæks/",
+      "example_en": "I like to relax and read a book before bed.",
+      "example_mm": "အိပ်ရာမဝင်ခင် စာအုပ်ဖတ်ပြီး အနားယူအပန်းဖြေရတာကို ကျွန်တော် နှစ်သက်ပါတယ်။"
+    },
+    {
+      "id": "voc-a2-1-1",
+      "lesson_id": "les-a2-1",
+      "word_en": "Departure",
+      "meaning_mm": "ထွက်ခွာခြင်း (လေယာဉ်/ရထား)",
+      "phonetic": "/dɪˈpɑːr.tʃər/",
+      "example_en": "Please check the departure time on your boarding pass.",
+      "example_mm": "သင်၏ လေယာဉ်လက်မှတ်ပေါ်တွင် ထွက်ခွာမည့်အချိန်ကို စစ်ဆေးပေးပါ။"
+    },
+    {
+      "id": "voc-a2-1-2",
+      "lesson_id": "les-a2-1",
+      "word_en": "Destination",
+      "meaning_mm": "ခရီးဆုံးပန်းတိုင် / သွားရောက်မည့်နေရာ",
+      "phonetic": "/ˌdes.tɪˈneɪ.ʃən/",
+      "example_en": "Bagan is a popular tourist destination in Myanmar.",
+      "example_mm": "ပုဂံသည် မြန်မာနိုင်ငံတွင် လူကြိုက်များသော ခရီးသွားနေရာတစ်ခု ဖြစ်ပါသည်။"
+    },
+    {
+      "id": "voc-b1-1-1",
+      "lesson_id": "les-b1-1",
+      "word_en": "Collaborate",
+      "meaning_mm": "ပူးပေါင်းဆောင်ရွက်သည်",
+      "phonetic": "/kəˈlæb.ə.reɪt/",
+      "example_en": "Our team collaborated closely on the new mobile project.",
+      "example_mm": "ကျွန်တော်တို့အဖွဲ့သည် မိုဘိုင်းပရောဂျက်အသစ်တွင် အနီးကပ် ပူးပေါင်းဆောင်ရွက်ခဲ့ကြသည်။"
+    },
+    {
+      "id": "voc-b1-1-2",
+      "lesson_id": "les-b1-1",
+      "word_en": "Achievement",
+      "meaning_mm": "အောင်မြင်မှု / စွမ်းဆောင်နိုင်မှု",
+      "phonetic": "/əˈtʃiːv.mənt/",
+      "example_en": "Passing the B1 exam is a great achievement.",
+      "example_mm": "B1 စာမေးပွဲ အောင်မြင်ခြင်းသည် ကြီးမားသော အောင်မြင်မှုတစ်ခု ဖြစ်ပါသည်။"
+    },
+    {
+      "id": "voc-b2-1-1",
+      "lesson_id": "les-b2-1",
+      "word_en": "Compromise",
+      "meaning_mm": "အလျှော့အတင်းလုပ်၍ ညှိနှိုင်းသဘောတူသည်",
+      "phonetic": "/ˈkɒm.prə.maɪz/",
+      "example_en": "Both companies reached a compromise after two hours.",
+      "example_mm": "နှစ်နာရီကြာ ဆွေးနွေးပြီးနောက် ကုမ္ပဏီနှစ်ခုလုံး သဘောတူညီမှု ရရှိခဲ့ကြသည်။"
+    },
+    {
+      "id": "voc-c1-1-1",
+      "lesson_id": "les-c1-1",
+      "word_en": "Paradigm",
+      "meaning_mm": "စံနမူနာပုံစံ / အတွေးအခေါ်မူဘောင်",
+      "phonetic": "/ˈpær.ə.daɪm/",
+      "example_en": "Artificial intelligence has created a new paradigm in education.",
+      "example_mm": "ဉာဏ်ရည်တုနည်းပညာသည် ပညာရေးနယ်ပယ်တွင် စံနမူနာမူဘောင်အသစ်တစ်ခုကို ဖန်တီးပေးခဲ့သည်။"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "qz-a1-1-1",
+      "lesson_id": "les-a1-1",
+      "question_type": "mcq",
+      "question_text": "Choose the correct Verb to Be: \"She ___ our new neighbor from Mandalay.\"",
+      "options_json": "[\"am\",\"is\",\"are\",\"be\"]",
+      "correct_answer": "is",
+      "explanation_mm": "She (သူမ - တစ်ဦးတည်း Subject) ဖြစ်သောကြောင့် Verb to Be တွင် \"is\" ကို အသုံးပြုရပါမည်။ (I + am, He/She/It + is, You/We/They + are)"
+    },
+    {
+      "id": "qz-a1-1-2",
+      "lesson_id": "les-a1-1",
+      "question_type": "fill_blank",
+      "question_text": "Complete the polite greeting: \"It is a ___ to meet you today.\" (ဝမ်းမြောက်ဂုဏ်ယူခြင်း)",
+      "options_json": "[\"pleasure\",\"hometown\",\"neighbor\",\"greeting\"]",
+      "correct_answer": "pleasure",
+      "explanation_mm": "\"It is a pleasure to meet you\" သည် တစ်ဦးနှင့်တစ်ဦး စတင်တွေ့ဆုံချိန်တွင် ဝမ်းမြောက်ဂုဏ်ယူကြောင်း ယဉ်ကျေးစွာ ပြောဆိုသည့် နှုတ်ဆက်စကား ဖြစ်ပါသည်။"
+    },
+    {
+      "id": "qz-a1-1-3",
+      "lesson_id": "les-a1-1",
+      "question_type": "reorder",
+      "question_text": "Reorder the words to form a natural self-introduction:",
+      "options_json": "[\"myself\",\"introduce\",\"Allow\",\"to\",\"me\"]",
+      "correct_answer": "Allow me to introduce myself",
+      "explanation_mm": "\"Allow me to introduce myself\" (ကျွန်တော့်ကိုယ်ကျွန်တော် မိတ်ဆက်ခွင့်ပြုပါ) ဟူသော အစီအစဉ်အတိုင်း စီပေးရပါမည်။"
+    },
+    {
+      "id": "qz-a1-2-1",
+      "lesson_id": "les-a1-2",
+      "question_type": "mcq",
+      "question_text": "Which sentence is grammatically correct in Present Simple Tense?",
+      "options_json": "[\"He commute to his office by train.\",\"He commutes to his office by train.\",\"He commuting to his office by train.\",\"He are commute to his office.\"]",
+      "correct_answer": "He commutes to his office by train.",
+      "explanation_mm": "Present Simple Tense တွင် Subject သည် He/She/It (တစ်ဦးတည်း) ဖြစ်ပါက Verb တွင် -s/-es ပေါင်းထည့်ရပါမည် (commute → commutes)။"
+    },
+    {
+      "id": "qz-a1-2-2",
+      "lesson_id": "les-a1-2",
+      "question_type": "fill_blank",
+      "question_text": "Type or select the missing word: \"We usually eat mohinga for ___ on Sundays.\" (မနက်စာ)",
+      "options_json": "[\"breakfast\",\"schedule\",\"exercise\",\"relax\"]",
+      "correct_answer": "breakfast",
+      "explanation_mm": "မနက်စာကို အင်္ဂလိပ်လို \"breakfast\" ဟုခေါ်ပြီး \"eat mohinga for breakfast\" (မနက်စာအဖြစ် မုန့်ဟင်းခါးစားသည်) ဟု သုံးပါသည်။"
+    },
+    {
+      "id": "qz-a1-2-3",
+      "lesson_id": "les-a1-2",
+      "question_type": "reorder",
+      "question_text": "Reorder the words to describe an evening habit:",
+      "options_json": "[\"relax\",\"to\",\"I\",\"bed\",\"like\",\"before\"]",
+      "correct_answer": "I like to relax before bed",
+      "explanation_mm": "\"I like to relax before bed\" (အိပ်ရာမဝင်ခင် အနားယူအပန်းဖြေရတာကို နှစ်သက်ပါသည်) ဟု Subject + Verb + Infinitive ပုံစံအတိုင်း စီရပါမည်။"
+    },
+    {
+      "id": "qz-a2-1-1",
+      "lesson_id": "les-a2-1",
+      "question_type": "mcq",
+      "question_text": "Which phrase is the most polite way to ask for directions at an airport?",
+      "options_json": "[\"Where is boarding gate?\",\"Could you please tell me where the boarding gate is?\",\"Tell me the boarding gate now.\",\"You show me boarding gate.\"]",
+      "correct_answer": "Could you please tell me where the boarding gate is?",
+      "explanation_mm": "ခရီးသွားရာတွင် လမ်းမေးမြန်းရာ၌ \"Could you please...\" ကို သုံးခြင်းသည် အယဉ်ကျေးဆုံးနှင့် အသင့်တော်ဆုံး ဖြစ်ပါသည်။"
+    },
+    {
+      "id": "qz-a2-1-2",
+      "lesson_id": "les-a2-1",
+      "question_type": "fill_blank",
+      "question_text": "Complete the sentence: \"Please check the ___ time on your boarding pass.\" (ထွက်ခွာမည့်အချိန်)",
+      "options_json": "[\"departure\",\"destination\",\"neighbor\"]",
+      "correct_answer": "departure",
+      "explanation_mm": "လေယာဉ် သို့မဟုတ် ရထား ထွက်ခွာချိန်ကို \"departure time\" ဟု ခေါ်ဆိုပါသည်။"
+    },
+    {
+      "id": "qz-b1-1-1",
+      "lesson_id": "les-b1-1",
+      "question_type": "mcq",
+      "question_text": "Complete with Present Perfect Tense: \"She ___ already finished the project report.\"",
+      "options_json": "[\"have\",\"has\",\"having\",\"had\"]",
+      "correct_answer": "has",
+      "explanation_mm": "Present Perfect Tense (have/has + V3) တွင် Subject သည် She (တစ်ဦးတည်း) ဖြစ်သောကြောင့် \"has\" ကို သုံးရပါမည်။"
+    },
+    {
+      "id": "qz-b2-1-1",
+      "lesson_id": "les-b2-1",
+      "question_type": "mcq",
+      "question_text": "First Conditional: \"If we sign the contract today, we ___ offer a 10% discount.\"",
+      "options_json": "[\"will\",\"would\",\"had\",\"were\"]",
+      "correct_answer": "will",
+      "explanation_mm": "First Conditional ဝါကျတွင် If + Present Simple နောက်၌ \"will + Verb (V1)\" ကို အသုံးပြုရပါသည်။"
+    },
+    {
+      "id": "qz-c1-1-1",
+      "lesson_id": "les-c1-1",
+      "question_type": "reorder",
+      "question_text": "Reorder the words to form a C1 Negative Inversion clause:",
+      "options_json": "[\"witnessed\",\"we\",\"Seldom\",\"have\",\"such\",\"change\"]",
+      "correct_answer": "Seldom have we witnessed such change",
+      "explanation_mm": "Negative Inversion တွင် \"Seldom\" ကဲ့သို့ Negative Adverb ကို ရှေ့ဆုံးပို့ပြီးနောက် Auxiliary Verb + Subject + V3 (\"Seldom have we witnessed...\") အစီအစဉ်အတိုင်း ရေးသားရပါသည်။"
+    }
+  ],
+  "userProgress": [
+    {
+      "id": "up-seed-1",
+      "user_id": "usr-student-1",
+      "lesson_id": "les-a1-1",
+      "status": "completed",
+      "score": 100,
+      "completed_at": "2026-11-21T05:46:40.545Z"
+    },
+    {
+      "id": "up-seed-2",
+      "user_id": "usr-student-1",
+      "lesson_id": "les-a1-2",
+      "status": "not_started",
+      "score": 0,
+      "completed_at": null
+    },
+    {
+      "id": "up-usr-admin-1-les-a1-1",
+      "user_id": "usr-admin-1",
+      "lesson_id": "les-a1-1",
+      "status": "completed",
+      "score": 100,
+      "completed_at": "2026-11-22T06:09:16.026Z"
+    },
+    {
+      "id": "up-usr-admin-1-les-a1-2",
+      "user_id": "usr-admin-1",
+      "lesson_id": "les-a1-2",
+      "status": "not_started",
+      "score": 0,
+      "completed_at": null
+    },
+    {
+      "id": "up-usr-admin-1-les-a1-1795327745148",
+      "user_id": "usr-admin-1",
+      "lesson_id": "les-a1-1795327745148",
+      "status": "not_started",
+      "score": 0,
+      "completed_at": null
+    },
+    {
+      "id": "up-usr-student-1-les-a1-1795327745148",
+      "user_id": "usr-student-1",
+      "lesson_id": "les-a1-1795327745148",
+      "status": "not_started",
+      "score": 0,
+      "completed_at": null
+    }
+  ],
+  "userVideoProgress": [
+    {
+      "id": "prog-seed-1",
+      "user_id": "usr-student-1",
+      "video_id": "vid-a1-1-1",
+      "watched_seconds": 5,
+      "is_completed": false,
+      "updated_at": "2026-11-22T05:46:40.545Z"
+    },
+    {
+      "id": "prog-usr-student-1-vid-a1-2-1",
+      "user_id": "usr-student-1",
+      "video_id": "vid-a1-2-1",
+      "watched_seconds": 0,
+      "is_completed": false,
+      "updated_at": "2026-11-22T05:50:58.082Z"
+    },
+    {
+      "id": "prog-usr-student-1-vid-a1-1-2",
+      "user_id": "usr-student-1",
+      "video_id": "vid-a1-1-2",
+      "watched_seconds": 0,
+      "is_completed": false,
+      "updated_at": "2026-11-22T05:52:56.826Z"
+    }
+  ],
+  "flashcardReviews": [
+    {
+      "id": "rev-seed-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-1-1",
+      "ease_factor": 2.5,
+      "interval_days": 3,
+      "next_review_at": "2026-11-25T06:22:47.119Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-seed-2",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-1-2",
+      "ease_factor": 2.65,
+      "interval_days": 4,
+      "next_review_at": "2026-11-26T06:22:53.625Z",
+      "is_bookmarked": true
+    },
+    {
+      "id": "rev-seed-3",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-2-3",
+      "ease_factor": 2.3,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:31:40.545Z",
+      "is_bookmarked": true
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-2-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-2-1",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:50:58.086Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-2-2",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-2-2",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:50:58.087Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-2-4",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-2-4",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:50:58.088Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-2-5",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-2-5",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:50:58.088Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-1-3",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-1-3",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:52:56.827Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-1-4",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-1-4",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:52:56.828Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a1-1-5",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a1-1-5",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T05:52:56.828Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a2-1-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a2-1-1",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.226Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-a2-1-2",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-a2-1-2",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.228Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-b1-1-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-b1-1-1",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.229Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-b1-1-2",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-b1-1-2",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.230Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-b2-1-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-b2-1-1",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.231Z",
+      "is_bookmarked": false
+    },
+    {
+      "id": "rev-usr-student-1-voc-c1-1-1",
+      "user_id": "usr-student-1",
+      "vocab_id": "voc-c1-1-1",
+      "ease_factor": 2.5,
+      "interval_days": 1,
+      "next_review_at": "2026-11-22T06:22:34.232Z",
+      "is_bookmarked": false
+    }
+  ],
+  "updatedAt": "2026-11-22T06:29:05.112Z"
+}
